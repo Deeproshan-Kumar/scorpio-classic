@@ -59,6 +59,10 @@
 }
 
 @media only screen and (max-width: 991px) {
+  body {
+    font-size: 1.6rem;
+  }
+  
   .finance-card .contents .group {
     padding: 2rem;
   }
