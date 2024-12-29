@@ -1,0 +1,244 @@
+@media only screen and (max-width: 1366px) {
+  .heroSwiper .swiper-controls {
+    width: 90%;
+  }
+
+  .product-container .product {
+    min-height: unset;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .enquiry-about-scorpion-classic {
+    max-width: unset;
+    padding-block: 1rem;
+    padding-inline: 2rem;
+    margin-bottom: 5rem;
+    padding-top: 7rem;
+  }
+
+  .enquiry-about-scorpion-classic > img {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .finance-card-bg {
+    min-height: 40rem;
+    object-fit: cover;
+    border-radius: 2rem;
+  }
+
+  .whatsapp-connect-box .icon {
+    height: 7rem;
+    width: 7rem;
+    margin-right: 1rem;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .buttons .button,
+  .buttons .button.variant-2 {
+    height: 5rem;
+  }
+
+  .finance-card .contents .group {
+    padding: 4rem;
+  }
+
+  .finance-card .counters {
+    gap: 4rem;
+  }
+
+  .finance-card .contents .group h2 {
+    font-size: 3.6rem;
+    margin-bottom: 2rem;
+  }
+
+  .downloads .app-download-box {
+    padding: 2rem 14rem 2rem 2rem;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .finance-card .contents .group {
+    padding: 2rem;
+  }
+
+  .icon-lists {
+    gap: 4rem;
+  }
+
+  .key-highlight .swiper-slide .slide-details {
+    padding: 1rem;
+  }
+
+  .downloads {
+    flex-wrap: wrap;
+  }
+
+  .additional-links.py-5 {
+    padding-bottom: 0;
+  }
+
+  .footer-wrapper .footer-links {
+    gap: 2rem;
+  }
+
+  .footer-wrapper .footer-links .col {
+    flex-grow: unset;
+    width: 23%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .py-5 {
+    padding-block: 4rem;
+  }
+
+  .buttons {
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+
+  .icon-lists {
+    gap: 2rem;
+  }
+
+  .navbar .navigations {
+    margin-left: 2rem;
+  }
+
+  .header-actions .login {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  .scorpion-classic-branding {
+    max-width: 18rem;
+  }
+
+  .finance-card-bg {
+    min-height: 42rem;
+  }
+
+  .navbar-legend .navigations {
+    gap: 2rem;
+  }
+
+  .finance-card .contents .group h2,
+  .key-highlights h3 {
+    font-size: 2.8rem;
+    margin-bottom: 2rem;
+  }
+
+  .finance-card .contents .group h4 {
+    margin-bottom: 2rem;
+  }
+
+  .finance-card .counters {
+    gap: 2rem;
+  }
+
+  .product-container .tabs {
+    gap: 2rem;
+  }
+
+  .navbar-legend .navigations a {
+    font-size: 1.2rem;
+  }
+
+  .variants-container .wrapper .filters,
+  .variants-container .wrapper .results {
+    width: 100%;
+  }
+
+  .variants-container .wrapper .filters {
+    margin-bottom: 2rem;
+  }
+
+  .variants-container .filters li {
+    margin-top: 2rem;
+  }
+
+  .product-container .product-color-tabs .colors,
+  .variants-container .cards-container .card .specs {
+    gap: 2rem;
+  }
+
+  .variants-container .cards-container .card .specs {
+    flex-wrap: wrap;
+  }
+
+  .faqs details {
+    padding: 2rem 0;
+  }
+
+  .faqs details summary {
+    font-size: 1.6rem;
+  }
+
+  .swiper-controls .controls {
+    gap: 1rem;
+  }
+
+  .swiper-button-prev::after,
+  .swiper-button-next::after {
+    font-size: 3rem;
+  }
+
+  .footer-wrapper .footer-links .col {
+    width: 100%;
+  }
+
+  .copyright .links {
+    gap: 1rem;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .buttons-container {
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+
+  .section-title,
+  .tab-container .head h3 {
+    font-size: 2rem;
+  }
+
+  .enquiry-about-scorpion-classic {
+    display: none;
+  }
+
+  .finance-card-bg {
+    min-height: 54rem;
+  }
+
+  .additional-links .links {
+    flex-wrap: wrap;
+  }
+
+  .additional-links .links .link {
+    width: 100%;
+  }
+
+  .downloads .card p {
+    display: none;
+  }
+
+  .whatsapp-connect-box .buttons .button {
+    min-width: 15rem;
+  }
+
+  .copyright .col {
+    width: 100%;
+  }
+
+  .copyright .links {
+    justify-content: center;
+  }
+
+  .text-right {
+    text-align: center;
+  }
+}
