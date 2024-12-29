@@ -1219,7 +1219,6 @@ footer {
 }
 
 .copyright .flex {
-  flex-wrap: wrap;
   gap: 1rem;
 }
 

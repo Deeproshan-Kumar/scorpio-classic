@@ -24,15 +24,18 @@ document.addEventListener("DOMContentLoaded", () => {
       this.nextElementSibling.classList.toggle("active");
     });
   });
+
   backButtons.forEach((backButton, index) => {
     backButton.addEventListener("click", function () {
       document.querySelectorAll(".submenu")[index].classList.remove("active");
     });
   });
+
   hamburger.addEventListener("click", function () {
     sideMenu.classList.add("active");
     overlay.classList.add("active");
   });
+  
   closeButtons.forEach((closeButton, index) => {
     closeButton.addEventListener("click", function () {
       const submenus = document.querySelectorAll(".submenu");

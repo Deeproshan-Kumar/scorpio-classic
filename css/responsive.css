@@ -100,6 +100,10 @@
     gap: 2rem;
   }
 
+  .button .layer {
+    font-size: 1.6rem;
+  }
+
   .icon-lists {
     gap: 2rem;
   }
@@ -143,10 +147,6 @@
     gap: 2rem;
   }
 
-  .navbar-legend .navigations a {
-    font-size: 1.2rem;
-  }
-
   .variants-container .wrapper .filters,
   .variants-container .wrapper .results {
     width: 100%;
@@ -165,7 +165,8 @@
     gap: 2rem;
   }
 
-  .variants-container .cards-container .card .specs {
+  .variants-container .cards-container .card .specs,
+  .copyright .flex {
     flex-wrap: wrap;
   }
 
