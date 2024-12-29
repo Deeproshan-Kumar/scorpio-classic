@@ -80,11 +80,11 @@ document.addEventListener("DOMContentLoaded", () => {
       } else if (env === "Outdoor") {
         envNightButton.style.display = "block";
         productImage.style.backgroundImage =
-          "url('../images/outdoor-env-day.png')";
+          "url('../scorpio-classic/images/outdoor-env-day.png')";
       } else if (env === "Night") {
         this.classList.add("active");
         productImage.style.backgroundImage =
-          "url('../images/outdoor-env-night.png')";
+          "url('../scorpio-classic/images/outdoor-env-night.png')";
       } else {
         this.classList.remove("active");
         envNightButton.style.display = "none";
